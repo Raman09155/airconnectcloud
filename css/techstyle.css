@@ -124,25 +124,13 @@ a:hover {
     top: 4rem;
 }
 
-.navbar-nav .nav-link {
-    white-space: nowrap;
-}
 
-.navbar-nav .nav-item {
-    margin-right: 15px; /* reduce if needed */
-}
 
-.navbar-nav .nav-link {
-    padding: 8px 10px; /* make it tighter */
-    font-size: 14px; /* optional size tweak */
-}
 
-@media (max-width: 1200px) {
-    .navbar-nav .nav-link {
-        padding: 6px 8px;
-        font-size: 13px;
-    }
-}
+
+
+
+
 
 
 .navbar-light .navbar-nav .nav-link {
@@ -790,7 +778,7 @@ html .mt40 {
 
 /* work category  */
 .work-category {
-    background: #ffbd84;
+    background: #f58142;
     position: relative;
     padding-top: 25px;
     padding-bottom: 50px;
