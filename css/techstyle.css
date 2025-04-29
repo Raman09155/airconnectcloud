@@ -51,6 +51,17 @@ a:hover {
     background: #555;
 }
 
+/* Add this or modify existing styles */
+.fixed-top {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000 !important; /* text color to black for visibility */
+}
+
+
 .fixed-top {
     border-bottom: 1px solid #ccc;
 }
@@ -256,10 +267,51 @@ a:hover {
     right: 0;
 }
 
+/* Carousel Image */
 .slideimg {
-    height: 100vh;
+    height: 85vh;
     object-fit: cover;
 }
+
+/* Force carousel container to half screen */
+.carousel-item {
+    height: 85vh;
+    position: relative;
+}
+
+/* Adjust caption container to fit inside new height */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    left: 10%;
+    right: 10%;
+    text-align: left;
+    padding: 10px;
+    z-index: 10;
+}
+
+/* Responsive text sizing */
+.carousel-caption h1 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+/* Optional: reduce button size inside carousel */
+.carousel-caption .btn-main {
+    font-size: 14px;
+    padding: 8px 20px;
+    line-height: 30px;
+}
+
 
 
 
