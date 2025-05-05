@@ -79,12 +79,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // SMTP configuration
         $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com';
+        $mail->Host       = 'smtp.rediffmailpro.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = $_ENV['SMTP_EMAIL'];       // from .env
         $mail->Password   = $_ENV['SMTP_PASSWORD'];    // from .env
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port       = 587;
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
+
+
+
 
         // Recipients
         $mail->setFrom($_ENV['SMTP_EMAIL'], 'Website Form');
