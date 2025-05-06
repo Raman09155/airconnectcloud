@@ -84,15 +84,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Username   = $_ENV['SMTP_EMAIL'];       // from .env
         $mail->Password   = $_ENV['SMTP_PASSWORD'];    // from .env
         $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
+        $mail->Port       = 587;
 
-
-
-
-        // Recipients
+        // Sender
         $mail->setFrom($_ENV['SMTP_EMAIL'], 'Website Form');
-        $mail->addAddress($_ENV['RECEIVER_EMAIL'], 'Recipient'); // from .env
         $mail->addReplyTo($email, $name);
+
+        // Recipients (Multiple)
+        $recipientList = explode(',', $_ENV['RECEIVER_EMAILS']);
+        foreach ($recipientList as $recipientEmail) {
+            $cleanEmail = trim($recipientEmail);
+            if (!empty($cleanEmail) && filter_var($cleanEmail, FILTER_VALIDATE_EMAIL)) {
+                $mail->addAddress($cleanEmail);
+            }
+        }
 
         // Email content
         $mail->isHTML(true);
