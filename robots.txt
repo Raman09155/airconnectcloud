@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.connectinfosys.com/sitemap.xml
+node_modules
