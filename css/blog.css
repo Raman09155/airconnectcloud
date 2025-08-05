@@ -1,0 +1,21 @@
+.blog-card, .blog-detail-card {
+  transition: transform .3s cubic-bezier(.4,2,.3,1), box-shadow 0.2s;
+  will-change: transform;
+  border-radius: 12px;
+}
+.blog-card:hover, .blog-detail-card:hover {
+  transform: translateY(-6px) scale(1.015);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.13);
+}
+.animate-up { opacity: 0; transform: translateY(44px); animation: fadeUp 1s .25s forwards; }
+.animate-fade { opacity: 0; animation: fadeIn .8s forwards; }
+@keyframes fadeUp {to{opacity:1;transform:none;}}
+@keyframes fadeIn {to{opacity:1;}}
+.badge-success { background-color: #18bb67; font-size: 11px; padding: 5px 10px;}
+.pagination .active .page-link { background: #18bb67; border-color: #18bb67; }
+a.text-primary { transition: color .2s; }
+a.text-primary:hover { color: #133eae; text-decoration: underline;}
+@media (max-width: 767.98px) {
+  .blog-card, .blog-detail-card { margin-bottom: 18px; }
+}
+
