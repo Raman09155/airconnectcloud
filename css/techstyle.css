@@ -1228,9 +1228,9 @@ border: none;
 }
 .choose:before {
     content: "";
-    background: url(../img/dot-pattern.png);
+    background: url();
     position: absolute;
-    height: 700px;
+    height: 600px;
     right: 0;
     left: 0;
     top: 0;
