@@ -1,5 +1,4 @@
 User-agent: *
-Disallow:
-
-Sitemap: https://www.connectinfosys.com/sitemap.xml
-node_modules
+Allow: /
+Disallow: /cgi-bin/
+Sitemap: https://connectinfosys.com/sitemap.xml
