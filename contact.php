@@ -114,6 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $response['status'] = 'success';
         $response['message'] = 'Thank you for reaching out! We will get back to you soon.';
+        $response['ga_track'] = true;
     } catch (Exception $e) {
         $response['message'] = 'Mailer Error: ' . $mail->ErrorInfo;
     }

@@ -424,6 +424,29 @@
         });
     </script>
     <script src="./js/contac.js"></script>
+    
+    <!-- Google Analytics Event Tracking -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('form[action="./contact.php"]');
+        
+        if (form) {
+            form.addEventListener('submit', function(e) {
+                try {
+                    if (typeof gtag !== 'undefined') {
+                        gtag('event', 'form_submit', {
+                            'event_category': 'contact_form',
+                            'event_label': 'contact_page_attempt',
+                            'value': 1
+                        });
+                    }
+                } catch (error) {
+                    console.log('GA tracking error:', error);
+                }
+            });
+        }
+    });
+    </script>
 </body>
 
 </html>

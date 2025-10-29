@@ -27,6 +27,19 @@ document.querySelector("form").addEventListener("submit", function (event) {
 
       if (data.status === "success") {
         document.querySelector("form").reset();
+        
+        // Google Analytics Success Event
+        try {
+          if (typeof gtag !== 'undefined' && data.ga_track) {
+            gtag('event', 'form_success', {
+              'event_category': 'contact_form',
+              'event_label': 'successful_submission',
+              'value': 1
+            });
+          }
+        } catch (error) {
+          console.log('GA success tracking error:', error);
+        }
       }
     })
     .catch((error) => {
