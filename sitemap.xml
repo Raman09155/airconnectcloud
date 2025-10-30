@@ -8,189 +8,234 @@
 
 
 <url>
-  <loc>https://connectinfosys.com/index.html</loc>
-  <lastmod>2025-09-19T12:38:34+00:00</lastmod>
+  <loc>https://connectinfosys.com/</loc>
+  <lastmod>2025-10-27T11:20:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://connectinfosys.com/index.html</loc>
+  <lastmod>2025-10-27T11:20:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://connectinfosys.com/about.html</loc>
-  <lastmod>2025-09-09T11:25:59+00:00</lastmod>
+  <lastmod>2025-10-01T10:59:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/cloudservices.html</loc>
-  <lastmod>2025-09-09T11:25:59+00:00</lastmod>
+  <lastmod>2025-10-01T10:59:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/services.html</loc>
-  <lastmod>2025-09-09T11:26:00+00:00</lastmod>
+  <lastmod>2025-10-01T10:59:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/product.html</loc>
-  <lastmod>2025-09-09T11:26:00+00:00</lastmod>
+  <lastmod>2025-10-01T10:59:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/it-infrastructure-and-networking-services.html</loc>
-  <lastmod>2025-09-09T11:25:59+00:00</lastmod>
+  <lastmod>2025-10-04T08:05:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/usa/cloud.html</loc>
-  <lastmod>2025-09-16T12:37:50+00:00</lastmod>
+  <lastmod>2025-10-04T08:05:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/usa/it-networking-services.html</loc>
-  <lastmod>2025-09-16T12:37:50+00:00</lastmod>
+  <lastmod>2025-10-04T08:05:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/usa/it-infrastructure-as-a-service.html</loc>
-  <lastmod>2025-09-16T12:37:50+00:00</lastmod>
+  <lastmod>2025-10-04T08:05:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://connectinfosys.com/aws-data-center-india.html</loc>
+  <lastmod>2025-10-01T10:59:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/security.html</loc>
-  <lastmod>2025-09-09T11:26:00+00:00</lastmod>
+  <lastmod>2025-10-01T10:59:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/managed-it-infrastructure-management.html</loc>
-  <lastmod>2025-09-09T11:26:00+00:00</lastmod>
+  <lastmod>2025-10-04T08:05:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/usa/firewall.html</loc>
-  <lastmod>2025-09-16T12:37:50+00:00</lastmod>
+  <lastmod>2025-10-04T08:05:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/datacenter-management.html</loc>
-  <lastmod>2025-09-16T12:38:08+00:00</lastmod>
+  <lastmod>2025-10-04T08:05:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/usa/it-infrastructure-services-support.html</loc>
-  <lastmod>2025-09-16T12:37:50+00:00</lastmod>
+  <lastmod>2025-10-04T08:05:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/usa/global-it-infrastructure.html</loc>
-  <lastmod>2025-09-16T12:37:50+00:00</lastmod>
+  <lastmod>2025-10-04T08:05:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/industry.html</loc>
-  <lastmod>2025-09-09T11:25:59+00:00</lastmod>
+  <lastmod>2025-10-01T10:59:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog.html</loc>
-  <lastmod>2025-09-22T09:08:31+00:00</lastmod>
+  <lastmod>2025-10-27T11:20:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/career.html</loc>
-  <lastmod>2025-09-09T11:25:59+00:00</lastmod>
+  <lastmod>2025-10-01T10:59:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/contact.html</loc>
-  <lastmod>2025-09-09T11:25:59+00:00</lastmod>
+  <lastmod>2025-10-27T11:26:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/event-it-infrastructure-and-facility-management.html</loc>
-  <lastmod>2025-09-09T11:25:59+00:00</lastmod>
+  <lastmod>2025-10-01T10:59:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://connectinfosys.com/blog/top-10-data-center-companies-in-india.html</loc>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://connectinfosys.com/blog/list-of-it-infrastructure-services.html</loc>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://connectinfosys.com/blog/it-support-cyber-security.html</loc>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://connectinfosys.com/blog/it-data-center-solutions.html</loc>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://connectinfosys.com/blog/Cloud%20infrastructure%20solution.html</loc>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://connectinfosys.com/blog/it-infrastructure-management-services.html</loc>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://connectinfosys.com/blog/indian-data-center-companies-listed-in-india.html</loc>
+  <lastmod>2025-10-27T11:19:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://connectinfosys.com/blog/it-facility-management-services.html</loc>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://connectinfosys.com/blog/global-it-infrastructure-solutions-usa.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/data-center-services-india.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/it-infra-consulting-services.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/professional-firewall-installation.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/best-cloud-it-infrastructure-services-usa.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/best-it-infrastructure-services-for-businesses.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/it-infrastructure-management.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/network-security-services.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/managed-it-infrastructure.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/cloud-infrastructure-services.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/mfn.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/rugby.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/gnr.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/arijit.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/kheloindiabihar.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://connectinfosys.com/blog/capmania.html</loc>
-  <lastmod>2025-09-22T09:07:43+00:00</lastmod>
+  <lastmod>2025-10-27T11:19:56+00:00</lastmod>
   <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://connectinfosys.com/</loc>
-  <lastmod>2025-09-19T12:38:34+00:00</lastmod>
-  <priority>0.51</priority>
 </url>
 
 
