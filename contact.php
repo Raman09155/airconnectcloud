@@ -1,4 +1,6 @@
 <?php
+// Set India timezone
+date_default_timezone_set('Asia/Kolkata');
 
 // ---------------------
 // ERROR LOGGING SETUP
@@ -16,6 +18,7 @@ header('Content-Type: application/json');
 // LOAD ENV VARIABLES
 // ---------------------
 require 'vendor/autoload.php';
+require 'config/database_sqlite.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -111,6 +114,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ";
 
         $mail->send();
+
+        // Save to database
+        try {
+            $database = new Database();
+            $conn = $database->getConnection();
+            
+            if ($conn) {
+                $query = "INSERT INTO form_submissions (name, email, phone, company, description, ip_address, user_agent) VALUES (?, ?, ?, ?, ?, ?, ?)";
+                $stmt = $conn->prepare($query);
+                $stmt = $conn->prepare("INSERT INTO form_submissions (name, email, phone, company, description, ip_address, user_agent, submitted_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+                $stmt->execute([
+                    $name,
+                    $email,
+                    $phone,
+                    $company,
+                    $description,
+                    $_SERVER['REMOTE_ADDR'] ?? 'unknown',
+                    $_SERVER['HTTP_USER_AGENT'] ?? 'unknown',
+(new DateTime('now', new DateTimeZone('Asia/Kolkata')))->format('Y-m-d H:i:s')
+                ]);
+            }
+        } catch (Exception $e) {
+            error_log("Database save error: " . $e->getMessage());
+        }
 
         $response['status'] = 'success';
         $response['message'] = 'Thank you for reaching out! We will get back to you soon.';
